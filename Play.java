@@ -57,8 +57,8 @@ public class Play extends Application {
 	private void startGame( Stage stage, Group newRoot ) {
 		if( startOfGame ) {
 			Button easy = new Button( "Easy" );
-			easy.setMaxSize( 200, 50 );
-			easy.setMinSize( 200, 50 );
+			easy.setMaxSize( 200, 75 );
+			easy.setMinSize( 200, 75 );
 			easy.relocate( 75, 425 );
 			easy.setFont( new Font( 30 ) );
 			easy.setOnMouseClicked( ( e ) -> {
@@ -75,8 +75,8 @@ public class Play extends Application {
 			newRoot.getChildren().add( easy );
 			
 			Button medium = new Button( "Medium" );
-			medium.setMaxSize( 200, 50 );
-			medium.setMinSize( 200, 50 );
+			medium.setMaxSize( 200, 75 );
+			medium.setMinSize( 200, 75 );
 			medium.relocate( 375, 425 );
 			medium.setFont( new Font( 30 ) );
 			medium.setOnMouseClicked( ( e ) -> {
@@ -93,8 +93,8 @@ public class Play extends Application {
 			newRoot.getChildren().add( medium );
 			
 			Button hard = new Button( "Hard" );
-			hard.setMaxSize( 200, 50 );
-			hard.setMinSize( 200, 50 );
+			hard.setMaxSize( 200, 75 );
+			hard.setMinSize( 200, 75 );
 			hard.relocate( 675, 425 );
 			hard.setFont( new Font( 30 ) );
 			hard.setOnMouseClicked( ( e ) -> {
