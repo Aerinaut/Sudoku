@@ -1,5 +1,5 @@
 /**
- * @author Aeronaut
+ * @author Aerinaut
  * This project creates a sudoku board in 3 different difficulties; easy, medium, and hard. It also of course allows one to 
  * play a game of Sudoku.
  */
